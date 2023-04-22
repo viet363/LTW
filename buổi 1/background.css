@@ -1,0 +1,39 @@
+body {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login-box {
+	background-color: rgba(16, 15, 15, 0.8);
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	max-width: 500px;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #fd1313;
+}
+
+label {
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+	margin-right: 10px;
+	font-weight: bold;
+	color: #f7ff0d;
+}
+
+input[type=text], input[type=password] {
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #28246c;
+	font-size: 16px;
+	color: #000000;
+}
+
